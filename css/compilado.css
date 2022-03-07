@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&family=Sansita+Swashed&display=swap");
 .header {
   background-color: white;
   position: sticky; }
@@ -35,10 +35,10 @@
     background-position: 0% 50%; } }
 
 .h1 {
-  font-size: 1.2rem; }
+  font-size: 1.5rem; }
   .h1__index {
     color: #ff537e;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: 'Sansita Swashed', cursive; }
 
 .cards {
   background-color: white;
