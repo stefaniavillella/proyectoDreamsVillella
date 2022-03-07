@@ -20,6 +20,7 @@
     color: rgb(161, 10, 81);
     }
 
+   
 }
 
 
@@ -37,5 +38,8 @@ $redes: (
 @each $red, $valor in $redes {
     .icon--#{$red} {
         color: $valor;
+    }
+    .icon--#{$red}:hover {
+        transform: scale(1.2);
     }
 }

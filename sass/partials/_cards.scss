@@ -6,6 +6,8 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 0.8rem;
         color: white;
+        background-color: $coral;
+        border-color: #d4145a;
      }
 
 
@@ -23,6 +25,10 @@
         background-color: rgb(255, 242, 248);
         font-family: 'Montserrat', sans-serif;
         font-size: 0.8rem;
+    }
+
+    &__cardKit{
+        text-align: center;
     }
 }
 
