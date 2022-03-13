@@ -20,7 +20,16 @@
     color: rgb(161, 10, 81);
     }
 
-   
+    &__title{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: #121296;
+    }
+
+    &__icon{
+        color: $coral;
+    }
 }
 
 

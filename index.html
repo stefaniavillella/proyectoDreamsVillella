@@ -16,17 +16,18 @@
     
 </head>
 <body>
-    <header class="header"> <!--NAVEGACIÓN-->
+  <!--NAVEGACIÓN-->
+    <header class="sticky-top header"> 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="./img/logo.png" alt="logo dreams graphics"></a>
+          <a class="navbar-brand" href="./index.html"> <img src="./img/logo.png" alt="logo dreams graphics"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center ">
               <li class="nav-item ">
-                <a class="nav-link active header__navItem" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link header__active header__navItem" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link header__navItem" href="./page/quienesSomos.html">Quiénes Somos</a>
@@ -85,10 +86,10 @@
 <div class="card cards__shadow col-md-4 col-xs-12 cards__cardKit cards" style="width: 18rem;">
   <img src="./img/kitCumples.jpg" class="card-img-top img-fluid mt-2" alt="Imagen kit cumpleaños">
   <div class="card-body">
-    <h5 class="card-title">Fiestas de Cumpleaños</h5>
-    <p class="card-text">Hacé que el cumpleaños sea aún más mágico con estos kits que tenemos para vos. <br>
+    <h5 class="card-title cards__cardTitle">Fiestas de Cumpleaños</h5>
+    <p class="card-text cards__cardText">Hacé que el cumpleaños sea aún más mágico con estos kits que tenemos para vos.
       Solo buscá el que más te guste, comprá, descargá, editá e imprimí. ¡LISTO!
-      Ya vas a tener para armar todas las piezas que quieras</p>
+      Ya vas a tener para armar las piezas que quieras.</p>
     <a href="#" class="btn btn-primary cards__botonCartas">Ver Kits</a>
   </div>
 </div>
@@ -96,10 +97,10 @@
 <div class="card cards__shadow col-md-4 col-xs-12 cards__cardKit" style="width: 18rem;">
   <img src="./img/bautismos.jpg" class="card-img-top img-fluid mt-2" alt="Imagen kit bautismos">
   <div class="card-body">
-    <h5 class="card-title">Comuniones y Bautismos</h5>
-    <p class="card-text">Los bautismos y comuniones son tan importantes como un cumple.
-      Por eso te invitamos a que veas todas las opciones que tenemos para decorar <br>
-      en ese día tan especial y único</p>
+    <h5 class="card-title cards__cardTitle">Comuniones y Bautismos</h5>
+    <p class="card-text cards__cardText">Los bautismos y comuniones son tan importantes como un cumpleaños.
+      Por eso te invitamos a que veas todas las opciones que tenemos para decorar
+   ese día tan especial y único. Hacé la diferencia.</p>
     <a href="#" class="btn btn-primary cards__botonCartas">Ver Kits</a>
   </div>
 </div>
@@ -107,8 +108,8 @@
 <div class="card cards__shadow col-md-4 col-xs-12 cards__cardKit" style="width: 18rem;">
   <img src="./img/kitEspeciales.jpg" class="card-img-top img-fluid mt-2" alt="Imagen kits especiales">
   <div class="card-body">
-    <h5 class="card-title">Fechas especiales</h5>
-    <p class="card-text">El día de la madre, día del niño, día del padre y muchas fechas más, tienen su kit especial! Accedé, encontrá el estilo que más te guste y empezá a decorar</p>
+    <h5 class="card-title cards__cardTitle">Fechas especiales</h5>
+    <p class="card-text cards__cardText">El día de la madre, día del niño, día del padre y muchas fechas más, como San Valentín, tienen su kit especial! Accedé, encontrá el estilo que más te guste, editalo y empezá a decorar para darle ese toque especial.</p>
     <a href="#" class="btn btn-primary cards__botonCartas">Ver Kits</a>
   </div>
 </div>
@@ -128,17 +129,11 @@
     <div class="container">
 
       <!-- Grid row-->
-      <div class="row py-4 d-flex align-items-center ">
+      <div class="row py-4 d-flex justify-content-center ">
 
         <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 redes">
           <h6 class="mb-0 white-text">Seguinos en las redes sociales!</h6>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-7 text-center text-md-right redes">
-
         
          <!-- Facebook -->
          <a href="https://www.facebook.com/profile.php?id=100051071983550" class="text-decoration-none">
@@ -173,8 +168,8 @@
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
         <!-- Content -->
-        <i class="fas fa-truck"></i>
-        <h6 class="text-uppercase font-weight-bold">Envíos gratis</h6>
+        <i class="fas fa-truck footer__icon"></i>
+        <h6 class="text-uppercase font-weight-bold footer__title">Envíos gratis</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Hacemos envíos a todo el país. Al ser un producto digital nos permite romper con todas las barreras y llegar a todos los rincones!</p>
 
@@ -185,8 +180,8 @@
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
         <!-- Links -->
-        <i class="fas fa-credit-card"></i>
-        <h6 class="text-uppercase font-weight-bold">Tarjetas</h6>
+        <i class="fas fa-credit-card footer__icon"></i>
+        <h6 class="text-uppercase font-weight-bold footer__title">Tarjetas</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Aceptamos todas las tarjetas de crédito, también pagos por
           Mercado Pago, PayPal, Rapipago, Pago Fácil
@@ -199,8 +194,8 @@
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
         <!-- Links -->
-        <i class="fas fa-shopping-cart"></i>
-        <h6 class="text-uppercase font-weight-bold">Carrito</h6>
+        <i class="fas fa-shopping-cart footer__icon"></i>
+        <h6 class="text-uppercase font-weight-bold footer__title">Carrito</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Agregando al carrito de compras
           obtenés un descuento al superar los $3000</p>
@@ -212,8 +207,8 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!-- Links -->
-        <i class="fas fa-envelope mr-3"></i>
-        <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+        <i class="fas fa-envelope mr-3 footer__icon"></i>
+        <h6 class="text-uppercase font-weight-bold footer__title">Newsletter</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <form class="input-group">
           <input type="text" class="form-control form-control-sm" placeholder="Tu email"
