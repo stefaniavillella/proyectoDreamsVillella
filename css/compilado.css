@@ -12,7 +12,7 @@
     color: #943052 !important; }
   .header__botonBusqueda {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(-45deg, #ff537e, #f4a074, #2973b4, #104d82);
+    background: linear-gradient(-45deg, #f57272, #f4a074, #2973b4, #104d82);
     background-size: 800% 400%;
     padding: 8px;
     display: inline-block;
@@ -41,7 +41,7 @@
 .h1 {
   font-size: 1.5rem; }
   .h1__index {
-    color: #ff537e;
+    color: #f57272;
     font-family: 'Sansita Swashed', cursive; }
 
 .cards {
@@ -57,7 +57,7 @@
     font-size: 1rem; }
   .cards__botonCartas, .botonContacto {
     font-family: 'Lato', sans-serif;
-    background: linear-gradient(-45deg, #ff537e, #f4a074, #2973b4, #104d82);
+    background: linear-gradient(-45deg, #f57272, #f4a074, #2973b4, #104d82);
     background-size: 800% 400%;
     padding: 8px;
     display: inline-block;
@@ -87,7 +87,7 @@
     text-align: center; }
 
 .botonContacto {
-  background-color: #ff537e; }
+  background-color: #f57272; }
 
 .botonContacto:hover {
   background-color: #d4145a; }
@@ -117,9 +117,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 0.9rem;
-    color: #121296; }
+    color: #33337e; }
   .footer__icon {
-    color: #ff537e; }
+    color: #f57272; }
 
 .icon--facebook {
   color: #121296; }
@@ -155,7 +155,21 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #ff537e; }
+  color: #f57272; }
+
+.red {
+  color: red; }
+
+.textForm {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
+.custom-select {
+  font-family: 'Lato', sans-serif; }
+
+.custom-select:hover {
+  background-color: #4636d4;
+  color: white; }
 
 @media only screen and (max-width: 768px) {
   .footerFlex .d-flex {
