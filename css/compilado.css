@@ -140,16 +140,21 @@
   transform: scale(1.2); }
 
 .categorias {
-  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   font-weight: bold; }
 
 .aList {
-  color: #9a5edd; }
+  color: #9a5edd;
+  font-family: 'Lato', sans-serif; }
 
 .aList:hover {
   color: #ca0a74; }
 
 .card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
   color: #ff537e; }
 
 @media only screen and (max-width: 768px) {
@@ -173,7 +178,10 @@
   .encabezado {
     margin: 0px; }
   .h1 {
-    margin-top: 5px; } }
+    margin-top: 5px; }
+  .cards__categoria {
+    margin-top: 10px;
+    text-align: center; } }
 
 @media only screen and (min-width: 1024px) {
   .navbar-expand-lg .navbar-collapse {
@@ -187,4 +195,6 @@
   .h1 {
     margin: 50px; }
   .redes {
-    text-align: start; } }
+    text-align: start; }
+  .productosGeneral {
+    margin: 50px; } }
